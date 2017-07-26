@@ -33,11 +33,12 @@ public class GameRunner {
         this.initPlayers(this.cards);
     }
 
-    private Player[] initPlayers(Deck cards){
+    private void initPlayers(Deck cards){
 
-        Deck deckOne = cards.createSubDeck(cards.numCards / NUMPLAYERS);
+        Deck deckOne = cards.createSubDeck(cards.numCards() / NUMPLAYERS);
 
-        this.players[] = { new Player("Lucas", deckOne), new Player("Paul", cards) };
+        Player players[] = { new Player("Lucas", deckOne), new Player("Paul", cards) };
+        this.players = players;
 
     }
 

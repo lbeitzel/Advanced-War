@@ -11,7 +11,7 @@ public class Player {
 
     private Deck deck;
 
-    public Player(String name, Deck deck,) {
+    public Player(String name, Deck deck) {
 
     }
 }
