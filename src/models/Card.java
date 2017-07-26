@@ -1,10 +1,4 @@
 package models;
-    
-    //heart ('\u2665'),
-    //diamond ('\u2666'),
-    //club ('\u2663'),
-    //spade ('\u2660')
-
 
 public class Card {
 
