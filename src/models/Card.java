@@ -1,4 +1,4 @@
-package model;
+package models;
     
     //heart ('\u2665'),
     //diamond ('\u2666'),
@@ -10,8 +10,8 @@ public class Card {
 
     public Suit suit;
 
-    public Card(Suit s){
-        this.suit = s;
+    public Card(Suit suit){
+        this.suit = suit;
 
     }
 
