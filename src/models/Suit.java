@@ -9,7 +9,7 @@ public class Suit {
 
     private String name;
 
-    public Suit( String unicode, String name){
+    public Suit(String unicode, String name){
         this.unicode = unicode;
         this.name = name;
     }
