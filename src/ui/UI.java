@@ -2,15 +2,15 @@ package ui;
 
 import javax.swing.*;
 
-import model.Deck;
+import models.Deck;
 
 public class UI extends JFrame {
 	public UI() {
-		Deck d = new Deck();
+		Deck deck = new Deck();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);	
 		System.out.println("\u2666");
-		d.shuffle();
-		JLabel label = new JLabel(d.toString());
+		deck.shuffle();
+		JLabel label = new JLabel(deck.toString());
 		add(label);
 		pack();
 		setVisible(true);
